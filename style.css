@@ -1,0 +1,138 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    margin-right: 800px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav a{
+    display: flex;
+    margin-right: 35px;
+    color: #818181;
+}
+
+p {
+   width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+h3{
+    width: 90%;
+     max-width: 900px;
+     margin: 0 auto;
+     
+ }
+ 
+.section-title{
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid darkgrey;
+}
+/*p.section-content{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid darkgrey;
+}*/
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+form button {
+    background-color: blue;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 500px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem
+
+    
+}
+img{
+    height: 400px;
+}
+
+
